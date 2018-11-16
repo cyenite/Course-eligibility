@@ -16,7 +16,7 @@ int main()
     printf("Enter your Chemistry marks: ");
     scanf("%d",&chemistry);
 
-    total2 = maths+physics;
+    total2 = maths+physics;  //total of two sciences
     total = maths+physics+chemistry;
     if(maths>=65 && physics>=55 && chemistry>=60 && total>=180)
     {
